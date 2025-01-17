@@ -1,23 +1,7 @@
 import express from "express";
 import bodyParser from "body-parser";
 import { MailtrapClient } from "mailtrap"
-// import { initializeApp } from "firebase/app";
-// import { getAnalytics } from "firebase/analytics";
-// import { onRequest } from "firebase-functions/v2/https";
-// import { logger } from "firebase-functions/logger";
 
-// const firebaseConfig = {
-//     apiKey: "AIzaSyA9cZwsMghXMX10LJzuEjbcK3XqiY0eoLM",
-//     authDomain: "karupati-coffee.firebaseapp.com",
-//     projectId: "karupati-coffee",
-//     storageBucket: "karupati-coffee.firebasestorage.app",
-//     messagingSenderId: "967366216647",
-//     appId: "1:967366216647:web:4ee09d41f3b455865e67e2",
-//     measurementId: "G-6ZN8TT0YJE"
-// };
-
-// const app = initializeApp(firebaseConfig);
-// const analytics = getAnalytics(app);
 
 const apps = express();
 const port = 3000;
